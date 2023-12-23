@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Login System</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet /">
+
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <section class="login-system vh-100 d-flex justify-content-center align-items-center">
+    <div class="login-box">
+      <div class="main-syetem d-flex">
+        <div class="main-img d-flex align-items-center">
+          <div class="content">
+            <div class="sign-up-info show">
+              <p>Don't have an account?</p>
+              <button id="showSignUp">Sign Up</button>
+            </div>
+            <div class="sign-in-info">
+              <p>Have an account?</p>
+              <button id="showSignIn">Sign In</button>
+            </div>
+          </div>
+        </div>
+        <div class="main-data">
+          <div class="content-form">
+            <div class="sign-in-form show-form">
+              <div class="heading mb-4">
+                <h2>Sign In</h2>
+              </div>
+              <form action="">
+                <div class="form-group mb-4">
+                  <label for="signInEmail" class="mb-2">Email</label>
+                  <div class="input-field position-relative field-in-email">
+                    <input type="text" id="signInEmail" class="form-control" placeholder="Enter your email" />
+                    <div class="check check-in-email"></div>
+                  </div>
+                </div>
+                <div class="form-group mb-4">
+                  <label for="signInPass" class="mb-2">Password</label>
+                  <div class="input-field position-relative field-in-pass">
+                    <input type="password" id="signInPass" class="form-control" placeholder="Enter your password" />
+                    <div class="check check-in-pass"></div>
+                  </div>
+                </div>
+                <button id="signIn">Sign In</button>
+              </form>
+            </div>
+            <div class="sign-up-form">
+              <div class="heading mb-4">
+                <h2>Sign Up</h2>
+              </div>
+              <form action="">
+                <div class="form-group mb-4">
+                  <label for="signUpName" class="mb-2">Name</label>
+                  <div class="input-field position-relative field-up-name">
+                    <input type="text" id="signUpName" class="form-control" placeholder="Enter your name" />
+                    <div class="check check-up-name"></div>
+                  </div>
+                </div>
+                <div class="form-group mb-4">
+                  <label for="signUpEmail" class="mb-2">Email</label>
+                  <div class="input-field position-relative field-up-email">
+                    <input type="text" id="signUpEmail" class="form-control" placeholder="Enter your email" />
+                    <div class="check check-up-email"></div>
+                  </div>
+                </div>
+                <div class="form-group mb-4">
+                  <label for="signUpPass" class="mb-2">Password</label>
+                  <div class="input-field position-relative field-up-pass">
+                    <input type="password" id="signUpPass" class="form-control" placeholder="Enter your password" />
+                    <div class="check check-up-pass"></div>
+                  </div>
+                </div>
+                <button id="signUp">Sign Up</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="signed-up">
+        <p>Account Verified</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
